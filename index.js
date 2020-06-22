@@ -3,4 +3,5 @@ document.querySelector('main').remove()
 
 let newHeader = document.createElement('h1')
 document.body.appendChild(newHeader)
-newHeader.innerText = "Trevor is the champion"
+newHeader.id = "victory"
+newHeader.innerHTML = "StoneMountain64 is the champion"
